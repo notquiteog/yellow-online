@@ -40,7 +40,7 @@ exactly as upstream ships it.
 | --- | --- | --- |
 | [gen1online](https://github.com/gamecorner-033/Gen1Online) | 0.3.1 | the core: real-time overworld co-op, facing PVP link battles, vanilla link trades, chat and a 24/7 GTS |
 | [PokePCFollowers_VoxelMerge](https://github.com/notquiteog/PokePCFollowers_VoxelMerge) | 0.5.1 | all 151 Gen 1 followers walking behind you, voxel-ready (Red/Blue/Yellow) |
-| [overworld_wild_spawns](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokemon visible roaming the grass, faced and battled in the field |
+| [overworld_wild_spawns](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.2.0 | wild Pokemon visible roaming the grass, faced and battled in the field |
 | [FOLLOWERS_EX](https://github.com/masterwebx/gen1recomp-followers-ex) | 1.0.19 | follower modes; on Yellow, Pikachu stays in slot 1 as the talkable companion |
 
 

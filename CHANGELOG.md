@@ -1,6 +1,17 @@
+# 1.0.3 - 2026-09-13
+
+- Update: overworld_wild_spawns 2.1.9 -> 2.2.0 (its manifest and tag now agree,
+  gen1 support unchanged; FOLLOWERS_EX depends on this mod without a version
+  constraint, so the dependency holds).
+- Checked every other pin against its repo's releases: all are already the
+  latest installable build. kanto_life 0.8.35 is published with no release
+  assets, so 0.8.34 remains the newest installable. The FAFF0x mirrors are
+  current with upstream's repo (45 zips, no newer commits). gen1online stays
+  at 0.3.0: 0.4/0.5 "Gen1Online++" is Crystal-only, and this cart is Yellow.
+
 # Changelog
 
-## 1.0.2 - 2026-09-13
+## ## 1.0.2 - 2026-09-13
 
 - Fix: the mirrored Gen1Online archive now declares the `compute` permission.
   The mod's netcode runs on `love.thread`, which the engine's sandbox refuses
