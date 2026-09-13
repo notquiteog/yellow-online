@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.2 - 2026-09-13
+
+- Fix: the mirrored Gen1Online archive now declares the `compute` permission.
+  The mod's netcode runs on `love.thread`, which the engine's sandbox refuses
+  unless `compute` is in `manifest.json` - upstream never declared it, so the
+  mod failed to load with "needs the compute permission". The mirror's zip is
+  upstream's archive with exactly that one manifest line added; the pin sha
+  changed accordingly. Cart content is otherwise unchanged.
+
 ## 1.0.1 - 2026-09-13
 
 - Fix: gen1online is now pinned at **0.3.0** via

@@ -3,7 +3,7 @@
   "title": "Yellow Online",
   "author": "notquiteog",
   "summary": "Gen1Online multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "base": "yellow",
   "seal": "sealed",
   "shell": "#f8d030",
@@ -30,7 +30,7 @@
       "source": "github",
       "repo": "notquiteog/Gen1Online",
       "version": "0.3.0",
-      "sha256": "2ec52d5a33974ea06f7cb14e46332c5d412475c9be07aed8aeb4cf5d143a3fba"
+      "sha256": "6a195d342f7c6c5500e8bedf7348c678b70a7546c085cf6a4f645dfe818af6b5"
     },
     {
       "id": "PokePCFollowers_VoxelMerge",

@@ -25,8 +25,10 @@ is Crystal-only. The pin points at a mirror: upstream tags this exact archive
 `v0.3.1` while the mod's own manifest inside it says `0.3.0`, and a sealed
 cart verifies pin against installed version, so the mislabel made v1.0.0 of
 this cart refuse to enforce (which disabled every mod, Battle Art Voxel
-included). The mirror re-publishes the byte-identical archive under the
-version the mod declares. Multiplayer and the GTS use the mod's own server
+included). The mirror re-publishes that archive under the version the mod declares,
+with one packaging fix: upstream's manifest never declares the `compute`
+permission its `love.thread` netcode needs (the sandbox errors without it),
+so the mirror adds it. Multiplayer and the GTS use the mod's own server
 exactly as upstream ships it.
 
 ## What's on it
