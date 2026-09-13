@@ -2,8 +2,8 @@
   "id": "yellow_online",
   "title": "Yellow Online",
   "author": "notquiteog",
-  "summary": "Gen1Online multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
-  "version": "1.0.3",
+  "summary": "RBY MMO multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
+  "version": "1.1.0",
   "base": "yellow",
   "seal": "sealed",
   "shell": "#f8d030",
@@ -26,11 +26,11 @@
   "automatic_version_check": true,
   "mods": [
     {
-      "id": "gen1online",
+      "id": "rby_mmo",
       "source": "github",
-      "repo": "notquiteog/Gen1Online",
-      "version": "0.3.0",
-      "sha256": "6a195d342f7c6c5500e8bedf7348c678b70a7546c085cf6a4f645dfe818af6b5"
+      "repo": "alamops/RBYMMOMod",
+      "version": "1.4.1",
+      "sha256": "1dca896d6778bef50ae6203dd7fe0c19e928f0a9ef31f81a9ba407e9170acf08"
     },
     {
       "id": "PokePCFollowers_VoxelMerge",
@@ -433,7 +433,7 @@
     }
   ],
   "load_order": [
-    "gen1online",
+    "rby_mmo",
     "PokePCFollowers_VoxelMerge",
     "overworld_wild_spawns",
     "FOLLOWERS_EX",

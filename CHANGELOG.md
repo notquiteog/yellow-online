@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 - 2026-09-13
+
+- Core swap: Gen1Online is out, [RBY MMO](https://github.com/alamops/RBYMMOMod)
+  1.4.1 is in. Gen1Online's Gen-1 line ended at 0.3.x and its service stopped
+  working; RBY MMO hosts from inside the game (dedicated hub optional),
+  supports trades and PVP battles on the spot, declares gen1 explicitly, its
+  tag matches its manifest, and it needs no undeclared permissions. Pin count
+  stays 58.
+
+
 ## 1.0.3 - 2026-09-13
 
 - Update: overworld_wild_spawns 2.1.9 -> 2.2.0 (its manifest and tag now agree,

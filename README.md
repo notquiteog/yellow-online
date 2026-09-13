@@ -2,7 +2,8 @@
 
 A version-pinned Gen1Recomp cart for **Pokemon Yellow**: multiplayer Kanto at
 the core, wrapped in the modern QoL suite and the community's best world, quest
-and art mods. **58 mods, sealed** - two people running this cart run the exact
+and art mods. 58 mods, sealed - two people running this cart run the exact
+same game. **58 mods, sealed** - two people running this cart run the exact
 same game.
 
 ## Install
@@ -19,17 +20,19 @@ separately and fetched at its exact build.
 
 ## The core
 
-[Gen1Online](https://github.com/notquiteog/Gen1Online) is pinned at
-**0.3.0**, the last Gen-1-era build - the newer 0.4/0.5 ("Gen1Online++") line
-is Crystal-only. The pin points at a mirror: upstream tags this exact archive
-`v0.3.1` while the mod's own manifest inside it says `0.3.0`, and a sealed
-cart verifies pin against installed version, so the mislabel made v1.0.0 of
-this cart refuse to enforce (which disabled every mod, Battle Art Voxel
-included). The mirror re-publishes that archive under the version the mod declares,
-with one packaging fix: upstream's manifest never declares the `compute`
-permission its `love.thread` netcode needs (the sandbox errors without it),
-so the mirror adds it. Multiplayer and the GTS use the mod's own server
-exactly as upstream ships it.
+[RBY MMO](https://github.com/alamops/RBYMMOMod) v1.4.1 is the core. **No
+server to rent and no accounts**: one of you hosts from inside the game
+(`START -> MMO -> HOST GAME`) - the host's copy acts as the relay - and a
+dedicated hub server is optional when you want the world up around the clock.
+Trades and PVP battles happen on the spot: walk up to another trainer, face
+them, and ask. Parties of two, co-op 2-on-2 battles, a per-hub friends list
+and a scoped chat box come with it.
+
+(The previous core, Gen1Online, is retired from this cart: its Gen-1 line
+ended at 0.3.x and its service stopped working. gen1mmo was considered and
+passed over - it depends on one official central server and ships a
+`love.thread` reference its manifest does not declare. The old
+notquiteog/Gen1Online mirror stays up for history.)
 
 ## What's on it
 
@@ -38,7 +41,7 @@ exactly as upstream ships it.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [gen1online](https://github.com/gamecorner-033/Gen1Online) | 0.3.1 | the core: real-time overworld co-op, facing PVP link battles, vanilla link trades, chat and a 24/7 GTS |
+| [rby_mmo](https://github.com/alamops/RBYMMOMod) | 1.4.1 | the core: shared overworld presence, on-the-spot trades and PVP battles, parties, co-op 2v2, chat and friends - one of you hosts from inside the game |
 | [PokePCFollowers_VoxelMerge](https://github.com/notquiteog/PokePCFollowers_VoxelMerge) | 0.5.1 | all 151 Gen 1 followers walking behind you, voxel-ready (Red/Blue/Yellow) |
 | [overworld_wild_spawns](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.2.0 | wild Pokemon visible roaming the grass, faced and battled in the field |
 | [FOLLOWERS_EX](https://github.com/masterwebx/gen1recomp-followers-ex) | 1.0.19 | follower modes; on Yellow, Pikachu stays in slot 1 as the talkable companion |
