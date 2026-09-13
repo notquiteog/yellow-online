@@ -1,4 +1,6 @@
-# 1.0.3 - 2026-09-13
+# Changelog
+
+## 1.0.3 - 2026-09-13
 
 - Update: overworld_wild_spawns 2.1.9 -> 2.2.0 (its manifest and tag now agree,
   gen1 support unchanged; FOLLOWERS_EX depends on this mod without a version
@@ -9,9 +11,7 @@
   current with upstream's repo (45 zips, no newer commits). gen1online stays
   at 0.3.0: 0.4/0.5 "Gen1Online++" is Crystal-only, and this cart is Yellow.
 
-# Changelog
-
-## ## 1.0.2 - 2026-09-13
+## 1.0.2 - 2026-09-13
 
 - Fix: the mirrored Gen1Online archive now declares the `compute` permission.
   The mod's netcode runs on `love.thread`, which the engine's sandbox refuses
@@ -27,8 +27,8 @@
   byte-identical mirror of upstream's `v0.3.1` archive re-tagged to the
   version the mod's manifest actually declares. Upstream's mislabeled tag made
   the pinned 0.3.1 never match the installed 0.3.0, so a sealed cart refused
-  to enforce and disabled the whole mod set. Cart content is otherwise
-  unchanged from 1.0.0.
+  to enforce (which disabled every mod, Battle Art Voxel included). Cart
+  content is otherwise unchanged from 1.0.0.
 
 ## 1.0.0 - 2026-09-13
 
