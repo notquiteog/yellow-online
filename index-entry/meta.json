@@ -3,7 +3,7 @@
   "title": "Yellow Online",
   "author": "notquiteog",
   "summary": "Gen1Online multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "base": "yellow",
   "seal": "sealed",
   "shell": "#f8d030",
@@ -43,8 +43,8 @@
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
-      "version": "2.1.9",
-      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd"
+      "version": "2.2.0",
+      "sha256": "788188ca4b6fe9feb501a6f6202a917b04130d47691042930be2b7312fd03eca"
     },
     {
       "id": "FOLLOWERS_EX",
