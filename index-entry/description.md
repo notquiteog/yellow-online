@@ -10,5 +10,6 @@ EXP share modes); thirteen new quests from the FAFF0x collection; and the art
 polish on top. The cart is locked to 1x and fully sealed, so link play is
 fair: everyone runs the same builds of the same mods.
 
-Gen1Online is pinned at 0.3.1, the last Gen-1-era build (0.4+ is
-Crystal-only).
+Gen1Online is pinned at 0.3.0, the last Gen-1-era build (0.4+ is
+Crystal-only), mirrored version-consistently since upstream's tag mislabels
+the archive.

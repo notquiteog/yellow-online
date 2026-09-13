@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "yellow_online",
   "title": "Yellow Online",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "notquiteog",
   "repo": "notquiteog/yellow-online",
   "summary": "Gen1Online multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
@@ -19,8 +19,8 @@
     {
       "id": "gen1online",
       "source": "github",
-      "repo": "gamecorner-033/Gen1Online",
-      "version": "0.3.1",
+      "repo": "notquiteog/Gen1Online",
+      "version": "0.3.0",
       "sha256": "2ec52d5a33974ea06f7cb14e46332c5d412475c9be07aed8aeb4cf5d143a3fba"
     },
     {

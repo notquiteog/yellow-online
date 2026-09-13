@@ -19,10 +19,15 @@ separately and fetched at its exact build.
 
 ## The core
 
-[Gen1Online](https://github.com/gamecorner-033/Gen1Online) is pinned at
-**0.3.1**, the last Gen-1-era build. The newer 0.4/0.5 ("Gen1Online++") line is
-Crystal-only, so on a Yellow cart 0.3.1 is the build that plays. Multiplayer
-and the GTS use the mod's own server exactly as upstream ships it.
+[Gen1Online](https://github.com/notquiteog/Gen1Online) is pinned at
+**0.3.0**, the last Gen-1-era build - the newer 0.4/0.5 ("Gen1Online++") line
+is Crystal-only. The pin points at a mirror: upstream tags this exact archive
+`v0.3.1` while the mod's own manifest inside it says `0.3.0`, and a sealed
+cart verifies pin against installed version, so the mislabel made v1.0.0 of
+this cart refuse to enforce (which disabled every mod, Battle Art Voxel
+included). The mirror re-publishes the byte-identical archive under the
+version the mod declares. Multiplayer and the GTS use the mod's own server
+exactly as upstream ships it.
 
 ## What's on it
 
