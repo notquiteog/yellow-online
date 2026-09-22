@@ -3,7 +3,7 @@
   "title": "Yellow Online",
   "author": "notquiteog",
   "summary": "RBY MMO multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "base": "yellow",
   "seal": "sealed",
   "shell": "#f8d030",
@@ -33,32 +33,21 @@
       "sha256": "1dca896d6778bef50ae6203dd7fe0c19e928f0a9ef31f81a9ba407e9170acf08"
     },
     {
-      "id": "PokePCFollowers_VoxelMerge",
-      "source": "github",
-      "repo": "notquiteog/PokePCFollowers_VoxelMerge",
-      "version": "0.5.1",
-      "sha256": "7edafdbda77bdfb6ad1fa67b6f5b034ee102e9f0a0d1a6c8465db230f85ad610"
-    },
-    {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
       "version": "2.2.0",
-      "sha256": "788188ca4b6fe9feb501a6f6202a917b04130d47691042930be2b7312fd03eca"
-    },
-    {
-      "id": "FOLLOWERS_EX",
-      "source": "github",
-      "repo": "masterwebx/gen1recomp-followers-ex",
-      "version": "1.0.19",
-      "sha256": "cd09b00061b7a2870fb9641d3ce585cbe9f2919b85cf68f11f22a1afd7d4ce6c"
+      "sha256": "788188ca4b6fe9feb501a6f6202a917b04130d47691042930be2b7312fd03eca",
+      "options": {
+        "catch_hud_size": 0
+      }
     },
     {
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
-      "repo": "absol89/DramaticShapeVoxelMod",
-      "version": "1.10.8",
-      "sha256": "2fb9ceb02d1b4da03869696f513ff565aed6fc9ce071a13c9fa62353c5c767c3"
+      "repo": "notquiteog/DramaticShapeVoxelMod",
+      "version": "1.21.0",
+      "sha256": "b900dbd08ebe5e50ac7777b72e6f1aa3d4a0b8567730c74c4cc99cdcbda0af5f"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
@@ -70,9 +59,9 @@
     {
       "id": "wild_skies",
       "source": "github",
-      "repo": "shanehudson-gen1recomp-mods/wild_skies",
-      "version": "1.12.0",
-      "sha256": "9932561e0d2cc119fc94c72df40f93bb15c905868a4d0cd71b42f08f8f9f6d92"
+      "repo": "notquiteog/wild_skies",
+      "version": "1.12.3",
+      "sha256": "a44628d92e09d3a535834facbef95bd1a1bd1b07813ac2a2c5b014486664e2b4"
     },
     {
       "id": "kanto_life",
@@ -434,9 +423,7 @@
   ],
   "load_order": [
     "rby_mmo",
-    "PokePCFollowers_VoxelMerge",
     "overworld_wild_spawns",
-    "FOLLOWERS_EX",
     "BATTLE_ART_VOXEL_FORK",
     "DRAMATIC_SKY_RIDE",
     "wild_skies",
@@ -491,5 +478,6 @@
     "player_sprite_flip",
     "quality_of_life",
     "modern_ui_icon_fix"
-  ]
+  ],
+  "engine": ">=0.2.73 <3.0.0"
 }
