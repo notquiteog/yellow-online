@@ -2,7 +2,7 @@
   "id": "yellow_online",
   "title": "Yellow Online",
   "author": "notquiteog",
-  "summary": "RBY MMO multiplayer core, the FAFF0x modern suite and the best community QoL, world and art mods, sealed on Yellow.",
+  "summary": "Original-art 2.5D scenery with Wilds, Online, Dramatic Ride, Double Battles and running shoes.",
   "version": "1.2.0",
   "base": "yellow",
   "seal": "sealed",
@@ -15,11 +15,8 @@
     "kanto",
     "online",
     "multiplayer",
-    "gts",
     "pvp",
-    "qol",
-    "voxel",
-    "quests"
+    "voxel"
   ],
   "repo": "https://github.com/notquiteog/yellow-online",
   "github": "notquiteog/yellow-online",

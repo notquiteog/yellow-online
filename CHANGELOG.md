@@ -1,4 +1,4 @@
-## 1.2.0 — HD-2D worlds and interior dioramas
+## 1.2.0 — 2.5D worlds and interior dioramas
 
 Pins Battle Art 1.21.0 from our fork, including upstream through 1.11.0.
 Adds native-art scenery, reviewed building exteriors, shared render distance
