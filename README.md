@@ -1,33 +1,18 @@
-# Yellow Online
+# Yellow Online 1.3.0
 
-A sealed Pokémon Yellow cart for Gen1Recomp, with original-art 2.5D scenery.
+Bundles Battle Art, Online+, Wilds, Double Battles and Dramatic Ride plus Running Shoes. Requires Gen1Recomp 0.3.1 or newer. Includes original-art scenery, Oak lab and settings fixes, host-owned visible encounters and updated native multiplayer integration.
 
-## Unreleased five-mod refresh
+Gen 1/2 online doubles and the full multiplayer disconnect/mixed-mod matrix remain unfinished.
 
-The authoring manifest now contains only:
+Install the attached .g1rcart. Your own legally obtained and imported base game is required; no ROM is included.
 
-- Battle Art — scenery, camera and battle presentation.
-- Wilds — visible wild Pokémon and followers.
-- Online — overworld presence, chat, trading and battle rooms.
-- Dramatic Ride — Pokémon mounts.
-- Double Battles — optional doubles integration.
-- Running Shoes — retained because Yellow has no native running.
+## Included versions
 
-Each mod remains independently usable. Online hosts own the shared wild roster;
-guests see the host's Pokémon and request encounters from it. Double Battles
-must preserve the exact Pokémon supplied by visible-spawn encounters.
+- gen1online-plus 0.6.0
+- overworld_wild_spawns 2.3.0
+- BATTLE_ART_VOXEL_FORK 1.22.0
+- DRAMATIC_SKY_RIDE 0.2.24
+- double_battles 0.10.0
+- running_shoes 1.10.0
 
-This source update is **not yet released**. The manifest still carries previous
-published version/hash pins while the new ports are verified. Do not package it
-as a completed cross-generation release until those pins are replaced together.
-The latest published cart still contains the earlier bundle.
-
-## Install a published cart
-
-Download the `.g1rcart` from the [GitHub releases](https://github.com/notquiteog/yellow-online/releases)
-and import it through Gen1Recomp's Custom Carts panel. Supply your own Yellow ROM.
-The cart contains configuration and artwork, not a ROM. Each pinned mod download
-is verified against its SHA-256 hash.
-
-The current development verification baseline is Gen1Recomp 0.3.0. No player
-saves are changed by preparing the next cart release.
+The manifest pins exact release ZIP hashes. Older releases remain available on GitHub.
