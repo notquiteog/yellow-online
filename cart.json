@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "yellow_online",
   "title": "Yellow Online",
-  "version": "1.5.0-test.1",
+  "version": "1.5.0-test.2",
   "author": "notquiteog",
   "repo": "notquiteog/yellow-online",
   "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
@@ -37,8 +37,11 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.1",
-      "sha256": "d1594dee48499c3811e5cc2816db447dada26a8e5b7bcb9848aafec2fe3b7afa"
+      "version": "1.23.0-test.2",
+      "sha256": "07ec6467e4939a49b0cd134b3692c6ad050d1364f99a750c64332e09f305248d",
+      "options": {
+        "battleArt": "rom"
+      }
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
